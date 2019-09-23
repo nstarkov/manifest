@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote  name="ascom"
+          fetch="https://stash.ascom-ws.com/scm/mob/"
+          review="" />
+ <project path="handsetDDS" name="handset" remote="ascom" revision="refs/heads/feature/DDS" />
+ <project path="handsetDX" name="handset" remote="ascom" revision="refs/heads/develop" />
+</manifest>
